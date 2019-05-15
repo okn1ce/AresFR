@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Ropa+Sans');
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+strong{
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+html, bodu {
+    width: 100%;
+}
+
+.column {
+    position: relative;
+    height: auto;
+    width: 33.33%;
+    display: block;
+    float: left;
+
+}
+
+.nav-link{
+    display:block;
+    margin-top:0px;
+    margin-right:0px;
+    margin-bottom:0px;
+    margin-left:6px;
+    float:right;   
+  }
+
+.nav-tabs{
+    background-color: rgb(34,40,49);
+}
+
+
+.nav-tabs > li > a{
+        border-radius: 5px;
+}
+
+
+.tab-content {
+    margin-top: 15px;
+}
+
+footer {
+    color: white;
+}
+
+.card {
+    background-color: rgb(34,40,49) !important;
+    border: 4px solid rgba(0, 34, 51, 0.1);
+    box-shadow: 2px 4px 10px 0 rgba(0, 34, 51, 0.05), 2px 4px 10px 0 rgba(0, 34, 51, 0.05);
+    border-radius: 0.15rem;
+    color: white;
+}
+
+/* Tabs Card */
+
+.tab-card {
+  border:1px solid #eee;
+}
+
+.tab-card-header {
+  background:none;
+}
+/* Default mode */
+.tab-card-header > .nav-tabs {
+  border: none;
+  margin: 0px;
+}
+.tab-card-header > .nav-tabs > li {
+  margin-right: 2px;
+}
+.tab-card-header > .nav-tabs > li > a {
+  border: 0;
+  border-bottom:2px solid transparent;
+  margin-right: 0;
+  color: #737373;
+  padding: 2px 15px;
+}
+
+.tab-card-header > .nav-tabs > li > a.show {
+    border-bottom:2px solid #007bff;
+    color: #007bff;
+}
+.tab-card-header > .nav-tabs > li > a:hover {
+    color: #007bff;
+}
+
+.tab-card-header > .tab-content {
+  padding-bottom: 0;
+}
+
+.left {
+    background: url("https://pngimage.net/wp-content/uploads/2018/05/blacksmith-png-5.png") no-repeat bottom;
+    height: 650px;
+}
+
+#devMess {
+  font-size:12px;
+  margin-right: 28%;
+}
